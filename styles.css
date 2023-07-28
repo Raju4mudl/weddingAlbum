@@ -48,4 +48,11 @@
     }
 }
 
+/* Responsive Background Image */
+@media (max-width: 767px) {
+    .hero-section {
+        background-size: cover;
+    }
+}
+
 /* Additional custom styles and animations can be added as per your design preferences */
