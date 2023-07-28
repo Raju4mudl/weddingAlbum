@@ -1,0 +1,51 @@
+/* Custom styles for the Wedding Album website */
+
+/* Hero Section Styles */
+.hero-section {
+    background-image: url('images/DSC_4323.JPG'); /* Add a beautiful wedding image as the hero background */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 24px;
+    max-width: 500px;
+    margin: 0 auto 30px;
+}
+
+.hero-section .btn {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+/* Navigation Bar Styles */
+/* ... (same as before) ... */
+
+/* Gallery Preview Section Styles */
+#gallery-preview {
+    background-color: #f7f7f7;
+}
+
+/* Custom Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Additional custom styles and animations can be added as per your design preferences */
